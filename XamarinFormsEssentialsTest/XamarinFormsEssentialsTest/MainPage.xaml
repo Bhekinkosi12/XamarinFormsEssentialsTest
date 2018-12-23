@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinFormsSensorTest.MainPage">
+
+    <!--<ContentPage.BindingContext>
+        <local:MainPage/>
+    </ContentPage.BindingContext>-->
+    <ScrollView>
+        <StackLayout>
+            <!-- Place new controls here -->
+            <Label x:Name="label1" Text="{Binding Message}" 
+               VerticalOptions="CenterAndExpand" />
+            <Label x:Name="label2" Text="{Binding Message}" 
+               VerticalOptions="CenterAndExpand" />
+            <Button x:Name="button3" Text="App Info" Clicked="Button3_OnClicked"/>
+            <Label x:Name="label3" Text="{Binding Message}" 
+               VerticalOptions="CenterAndExpand" />
+            <Label x:Name="label4" Text="{Binding Message}" 
+                   VerticalOptions="CenterAndExpand" />
+            <Label x:Name="label5" Text="{Binding Message}" 
+                   VerticalOptions="CenterAndExpand" />
+            <Label x:Name="label6" Text="{Binding Message}" 
+                   VerticalOptions="CenterAndExpand" />
+            <Label x:Name="label7" Text="{Binding Message}" 
+                   VerticalOptions="CenterAndExpand" />
+            <Label x:Name="label8" Text="{Binding Message}" 
+                   VerticalOptions="CenterAndExpand" />
+            <Button x:Name="button1" Text="Send Email" Clicked="Button1_OnClicked"/>
+            <Button x:Name="button2" Text="FlashLight" Clicked="Button2_OnClicked"/>
+            <Label x:Name="label9" Text="{Binding Message}" 
+                   VerticalOptions="CenterAndExpand" />
+            <Label x:Name="label10" Text="{Binding Message}" 
+                   VerticalOptions="CenterAndExpand" />
+            <Label x:Name="label11" Text="{Binding Message}" 
+                   VerticalOptions="CenterAndExpand" />
+            <Label x:Name="label12" Text="{Binding Message}" 
+                   VerticalOptions="CenterAndExpand" />
+            <Label x:Name="label13" Text="{Binding Message}" 
+                   VerticalOptions="CenterAndExpand" />
+            <Button x:Name="button4" Text="Open Map" Clicked="Button4_OnClicked"/>
+            <Button x:Name="button5" Text="Open Map Navigate To" Clicked="Button5_OnClicked"/>
+            <Button x:Name="button6" Text="Vibrate Default" Clicked="Button6_OnClicked"/>
+            <Button x:Name="button7" Text="Vibrate 2sec" Clicked="Button7_OnClicked"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
