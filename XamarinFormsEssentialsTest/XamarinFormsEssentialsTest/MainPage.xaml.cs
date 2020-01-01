@@ -83,6 +83,12 @@ namespace XamarinFormsSensorTest
             var ori=new OrientationSensorTest();
             ori.ToggleOrientationSensor();
             this.label13.BindingContext = ori;
+
+            //シェイク検出
+            var shake = new DetectShakeTest();
+            shake.ToggleAccelerometer();
+            //this.label14.BindingContext = shake;
+            this.stacklayout.BindingContext = shake;
         }
 
         private void Button1_OnClicked(object sender, EventArgs e)
