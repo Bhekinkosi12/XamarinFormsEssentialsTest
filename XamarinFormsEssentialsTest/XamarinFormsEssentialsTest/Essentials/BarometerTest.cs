@@ -57,13 +57,11 @@ namespace XamarinFormsSensorTest.Sensors
             }
             catch (FeatureNotSupportedException fnsEx)
             {
-                this.Message = $@"Barometer:
-その機能はありません";
+                this.Message = $@"Barometer:";
             }
             catch (Exception ex)
             {
-                this.Message = $@"Barometer:
-何かエラーです";
+                this.Message = $@"Barometer:";
             }
         }
 
